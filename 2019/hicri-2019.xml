@@ -1,0 +1,2593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.5.4.1deb2ubuntu2
+- https://www.phpmyadmin.net
+-
+- Anamakine: localhost
+- Üretim Zamanı: 26 Tem 2018, 10:00:07
+- Sunucu sürümü: 5.7.22-0ubuntu0.16.04.1
+- PHP Sürümü: 5.6.36-1+ubuntu16.04.1+deb.sury.org+1
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="namaz-vakitleri" collation="utf8_turkish_ci" charset="utf8">
+            <pma:table name="hicri">
+                CREATE TABLE `hicri` (
+                  `hicri_id` int(11) NOT NULL AUTO_INCREMENT,
+                  `hicri_date` varchar(100) COLLATE utf8_turkish_ci NOT NULL,
+                  `hicri_title` varchar(100) COLLATE utf8_turkish_ci NOT NULL,
+                  `hicri_dateshort` varchar(100) COLLATE utf8_turkish_ci NOT NULL,
+                  `hicri_miladiuzun` varchar(100) COLLATE utf8_turkish_ci NOT NULL,
+                  UNIQUE KEY `hicri_id` (`hicri_id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=367 DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Veritabanı: 'namaz-vakitleri'
+    -->
+    <database name="namaz-vakitleri">
+        <!-- Tablo hicri -->
+        <table name="hicri">
+            <column name="hicri_id">1</column>
+            <column name="hicri_date">31.08.2019</column>
+            <column name="hicri_title">1 Muharrem 1441</column>
+            <column name="hicri_dateshort">01.01.1441</column>
+            <column name="hicri_miladiuzun">31 Ağustos 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">2</column>
+            <column name="hicri_date">01.09.2019</column>
+            <column name="hicri_title">2 Muharrem 1441</column>
+            <column name="hicri_dateshort">02.01.1441</column>
+            <column name="hicri_miladiuzun">01 Eylül 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">3</column>
+            <column name="hicri_date">02.09.2019</column>
+            <column name="hicri_title">3 Muharrem 1441</column>
+            <column name="hicri_dateshort">03.01.1441</column>
+            <column name="hicri_miladiuzun">02 Eylül 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">4</column>
+            <column name="hicri_date">03.09.2019</column>
+            <column name="hicri_title">4 Muharrem 1441</column>
+            <column name="hicri_dateshort">04.01.1441</column>
+            <column name="hicri_miladiuzun">03 Eylül 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">5</column>
+            <column name="hicri_date">04.09.2019</column>
+            <column name="hicri_title">5 Muharrem 1441</column>
+            <column name="hicri_dateshort">05.01.1441</column>
+            <column name="hicri_miladiuzun">04 Eylül 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">6</column>
+            <column name="hicri_date">05.09.2019</column>
+            <column name="hicri_title">6 Muharrem 1441</column>
+            <column name="hicri_dateshort">06.01.1441</column>
+            <column name="hicri_miladiuzun">05 Eylül 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">7</column>
+            <column name="hicri_date">06.09.2019</column>
+            <column name="hicri_title">7 Muharrem 1441</column>
+            <column name="hicri_dateshort">07.01.1441</column>
+            <column name="hicri_miladiuzun">06 Eylül 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">8</column>
+            <column name="hicri_date">07.09.2019</column>
+            <column name="hicri_title">8 Muharrem 1441</column>
+            <column name="hicri_dateshort">08.01.1441</column>
+            <column name="hicri_miladiuzun">07 Eylül 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">9</column>
+            <column name="hicri_date">08.09.2019</column>
+            <column name="hicri_title">9 Muharrem 1441</column>
+            <column name="hicri_dateshort">09.01.1441</column>
+            <column name="hicri_miladiuzun">08 Eylül 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">10</column>
+            <column name="hicri_date">09.09.2019</column>
+            <column name="hicri_title">10 Muharrem 1441</column>
+            <column name="hicri_dateshort">10.01.1441</column>
+            <column name="hicri_miladiuzun">09 Eylül 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">11</column>
+            <column name="hicri_date">10.09.2019</column>
+            <column name="hicri_title">11 Muharrem 1441</column>
+            <column name="hicri_dateshort">11.01.1441</column>
+            <column name="hicri_miladiuzun">10 Eylül 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">12</column>
+            <column name="hicri_date">11.09.2019</column>
+            <column name="hicri_title">12 Muharrem 1441</column>
+            <column name="hicri_dateshort">12.01.1441</column>
+            <column name="hicri_miladiuzun">11 Eylül 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">13</column>
+            <column name="hicri_date">12.09.2019</column>
+            <column name="hicri_title">13 Muharrem 1441</column>
+            <column name="hicri_dateshort">13.01.1441</column>
+            <column name="hicri_miladiuzun">12 Eylül 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">14</column>
+            <column name="hicri_date">13.09.2019</column>
+            <column name="hicri_title">14 Muharrem 1441</column>
+            <column name="hicri_dateshort">14.01.1441</column>
+            <column name="hicri_miladiuzun">13 Eylül 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">15</column>
+            <column name="hicri_date">14.09.2019</column>
+            <column name="hicri_title">15 Muharrem 1441</column>
+            <column name="hicri_dateshort">15.01.1441</column>
+            <column name="hicri_miladiuzun">14 Eylül 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">16</column>
+            <column name="hicri_date">15.09.2019</column>
+            <column name="hicri_title">16 Muharrem 1441</column>
+            <column name="hicri_dateshort">16.01.1441</column>
+            <column name="hicri_miladiuzun">15 Eylül 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">17</column>
+            <column name="hicri_date">16.09.2019</column>
+            <column name="hicri_title">17 Muharrem 1441</column>
+            <column name="hicri_dateshort">17.01.1441</column>
+            <column name="hicri_miladiuzun">16 Eylül 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">18</column>
+            <column name="hicri_date">17.09.2019</column>
+            <column name="hicri_title">18 Muharrem 1441</column>
+            <column name="hicri_dateshort">18.01.1441</column>
+            <column name="hicri_miladiuzun">17 Eylül 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">19</column>
+            <column name="hicri_date">18.09.2019</column>
+            <column name="hicri_title">19 Muharrem 1441</column>
+            <column name="hicri_dateshort">19.01.1441</column>
+            <column name="hicri_miladiuzun">18 Eylül 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">20</column>
+            <column name="hicri_date">19.09.2019</column>
+            <column name="hicri_title">20 Muharrem 1441</column>
+            <column name="hicri_dateshort">20.01.1441</column>
+            <column name="hicri_miladiuzun">19 Eylül 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">21</column>
+            <column name="hicri_date">20.09.2019</column>
+            <column name="hicri_title">21 Muharrem 1441</column>
+            <column name="hicri_dateshort">21.01.1441</column>
+            <column name="hicri_miladiuzun">20 Eylül 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">22</column>
+            <column name="hicri_date">21.09.2019</column>
+            <column name="hicri_title">22 Muharrem 1441</column>
+            <column name="hicri_dateshort">22.01.1441</column>
+            <column name="hicri_miladiuzun">21 Eylül 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">23</column>
+            <column name="hicri_date">22.09.2019</column>
+            <column name="hicri_title">23 Muharrem 1441</column>
+            <column name="hicri_dateshort">23.01.1441</column>
+            <column name="hicri_miladiuzun">22 Eylül 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">24</column>
+            <column name="hicri_date">23.09.2019</column>
+            <column name="hicri_title">24 Muharrem 1441</column>
+            <column name="hicri_dateshort">24.01.1441</column>
+            <column name="hicri_miladiuzun">23 Eylül 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">25</column>
+            <column name="hicri_date">24.09.2019</column>
+            <column name="hicri_title">25 Muharrem 1441</column>
+            <column name="hicri_dateshort">25.01.1441</column>
+            <column name="hicri_miladiuzun">24 Eylül 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">26</column>
+            <column name="hicri_date">25.09.2019</column>
+            <column name="hicri_title">26 Muharrem 1441</column>
+            <column name="hicri_dateshort">26.01.1441</column>
+            <column name="hicri_miladiuzun">25 Eylül 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">27</column>
+            <column name="hicri_date">26.09.2019</column>
+            <column name="hicri_title">27 Muharrem 1441</column>
+            <column name="hicri_dateshort">27.01.1441</column>
+            <column name="hicri_miladiuzun">26 Eylül 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">28</column>
+            <column name="hicri_date">27.09.2019</column>
+            <column name="hicri_title">28 Muharrem 1441</column>
+            <column name="hicri_dateshort">28.01.1441</column>
+            <column name="hicri_miladiuzun">27 Eylül 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">29</column>
+            <column name="hicri_date">28.09.2019</column>
+            <column name="hicri_title">29 Muharrem 1441</column>
+            <column name="hicri_dateshort">29.01.1441</column>
+            <column name="hicri_miladiuzun">28 Eylül 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">30</column>
+            <column name="hicri_date">29.09.2019</column>
+            <column name="hicri_title">30 Muharrem 1441</column>
+            <column name="hicri_dateshort">30.01.1441</column>
+            <column name="hicri_miladiuzun">29 Eylül 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">31</column>
+            <column name="hicri_date">30.09.2019</column>
+            <column name="hicri_title">1 Safer 1441</column>
+            <column name="hicri_dateshort">01.02.1441</column>
+            <column name="hicri_miladiuzun">30 Eylül 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">32</column>
+            <column name="hicri_date">01.10.2019</column>
+            <column name="hicri_title">2 Safer 1441</column>
+            <column name="hicri_dateshort">02.02.1441</column>
+            <column name="hicri_miladiuzun">01 Ekim 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">33</column>
+            <column name="hicri_date">02.10.2019</column>
+            <column name="hicri_title">3 Safer 1441</column>
+            <column name="hicri_dateshort">03.02.1441</column>
+            <column name="hicri_miladiuzun">02 Ekim 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">34</column>
+            <column name="hicri_date">03.10.2019</column>
+            <column name="hicri_title">4 Safer 1441</column>
+            <column name="hicri_dateshort">04.02.1441</column>
+            <column name="hicri_miladiuzun">03 Ekim 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">35</column>
+            <column name="hicri_date">04.10.2019</column>
+            <column name="hicri_title">5 Safer 1441</column>
+            <column name="hicri_dateshort">05.02.1441</column>
+            <column name="hicri_miladiuzun">04 Ekim 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">36</column>
+            <column name="hicri_date">05.10.2019</column>
+            <column name="hicri_title">6 Safer 1441</column>
+            <column name="hicri_dateshort">06.02.1441</column>
+            <column name="hicri_miladiuzun">05 Ekim 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">37</column>
+            <column name="hicri_date">06.10.2019</column>
+            <column name="hicri_title">7 Safer 1441</column>
+            <column name="hicri_dateshort">07.02.1441</column>
+            <column name="hicri_miladiuzun">06 Ekim 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">38</column>
+            <column name="hicri_date">07.10.2019</column>
+            <column name="hicri_title">8 Safer 1441</column>
+            <column name="hicri_dateshort">08.02.1441</column>
+            <column name="hicri_miladiuzun">07 Ekim 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">39</column>
+            <column name="hicri_date">08.10.2019</column>
+            <column name="hicri_title">9 Safer 1441</column>
+            <column name="hicri_dateshort">09.02.1441</column>
+            <column name="hicri_miladiuzun">08 Ekim 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">40</column>
+            <column name="hicri_date">09.10.2019</column>
+            <column name="hicri_title">10 Safer 1441</column>
+            <column name="hicri_dateshort">10.02.1441</column>
+            <column name="hicri_miladiuzun">09 Ekim 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">41</column>
+            <column name="hicri_date">10.10.2019</column>
+            <column name="hicri_title">11 Safer 1441</column>
+            <column name="hicri_dateshort">11.02.1441</column>
+            <column name="hicri_miladiuzun">10 Ekim 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">42</column>
+            <column name="hicri_date">11.10.2019</column>
+            <column name="hicri_title">12 Safer 1441</column>
+            <column name="hicri_dateshort">12.02.1441</column>
+            <column name="hicri_miladiuzun">11 Ekim 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">43</column>
+            <column name="hicri_date">12.10.2019</column>
+            <column name="hicri_title">13 Safer 1441</column>
+            <column name="hicri_dateshort">13.02.1441</column>
+            <column name="hicri_miladiuzun">12 Ekim 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">44</column>
+            <column name="hicri_date">13.10.2019</column>
+            <column name="hicri_title">14 Safer 1441</column>
+            <column name="hicri_dateshort">14.02.1441</column>
+            <column name="hicri_miladiuzun">13 Ekim 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">45</column>
+            <column name="hicri_date">14.10.2019</column>
+            <column name="hicri_title">15 Safer 1441</column>
+            <column name="hicri_dateshort">15.02.1441</column>
+            <column name="hicri_miladiuzun">14 Ekim 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">46</column>
+            <column name="hicri_date">15.10.2019</column>
+            <column name="hicri_title">16 Safer 1441</column>
+            <column name="hicri_dateshort">16.02.1441</column>
+            <column name="hicri_miladiuzun">15 Ekim 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">47</column>
+            <column name="hicri_date">16.10.2019</column>
+            <column name="hicri_title">17 Safer 1441</column>
+            <column name="hicri_dateshort">17.02.1441</column>
+            <column name="hicri_miladiuzun">16 Ekim 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">48</column>
+            <column name="hicri_date">17.10.2019</column>
+            <column name="hicri_title">18 Safer 1441</column>
+            <column name="hicri_dateshort">18.02.1441</column>
+            <column name="hicri_miladiuzun">17 Ekim 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">49</column>
+            <column name="hicri_date">18.10.2019</column>
+            <column name="hicri_title">19 Safer 1441</column>
+            <column name="hicri_dateshort">19.02.1441</column>
+            <column name="hicri_miladiuzun">18 Ekim 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">50</column>
+            <column name="hicri_date">19.10.2019</column>
+            <column name="hicri_title">20 Safer 1441</column>
+            <column name="hicri_dateshort">20.02.1441</column>
+            <column name="hicri_miladiuzun">19 Ekim 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">51</column>
+            <column name="hicri_date">20.10.2019</column>
+            <column name="hicri_title">21 Safer 1441</column>
+            <column name="hicri_dateshort">21.02.1441</column>
+            <column name="hicri_miladiuzun">20 Ekim 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">52</column>
+            <column name="hicri_date">21.10.2019</column>
+            <column name="hicri_title">22 Safer 1441</column>
+            <column name="hicri_dateshort">22.02.1441</column>
+            <column name="hicri_miladiuzun">21 Ekim 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">53</column>
+            <column name="hicri_date">22.10.2019</column>
+            <column name="hicri_title">23 Safer 1441</column>
+            <column name="hicri_dateshort">23.02.1441</column>
+            <column name="hicri_miladiuzun">22 Ekim 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">54</column>
+            <column name="hicri_date">23.10.2019</column>
+            <column name="hicri_title">24 Safer 1441</column>
+            <column name="hicri_dateshort">24.02.1441</column>
+            <column name="hicri_miladiuzun">23 Ekim 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">55</column>
+            <column name="hicri_date">24.10.2019</column>
+            <column name="hicri_title">25 Safer 1441</column>
+            <column name="hicri_dateshort">25.02.1441</column>
+            <column name="hicri_miladiuzun">24 Ekim 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">56</column>
+            <column name="hicri_date">25.10.2019</column>
+            <column name="hicri_title">26 Safer 1441</column>
+            <column name="hicri_dateshort">26.02.1441</column>
+            <column name="hicri_miladiuzun">25 Ekim 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">57</column>
+            <column name="hicri_date">26.10.2019</column>
+            <column name="hicri_title">27 Safer 1441</column>
+            <column name="hicri_dateshort">27.02.1441</column>
+            <column name="hicri_miladiuzun">26 Ekim 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">58</column>
+            <column name="hicri_date">27.10.2019</column>
+            <column name="hicri_title">28 Safer 1441</column>
+            <column name="hicri_dateshort">28.02.1441</column>
+            <column name="hicri_miladiuzun">27 Ekim 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">59</column>
+            <column name="hicri_date">28.10.2019</column>
+            <column name="hicri_title">29 Safer 1441</column>
+            <column name="hicri_dateshort">29.02.1441</column>
+            <column name="hicri_miladiuzun">28 Ekim 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">60</column>
+            <column name="hicri_date">29.10.2019</column>
+            <column name="hicri_title">1 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">01.03.1441</column>
+            <column name="hicri_miladiuzun">29 Ekim 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">61</column>
+            <column name="hicri_date">30.10.2019</column>
+            <column name="hicri_title">2 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">02.03.1441</column>
+            <column name="hicri_miladiuzun">30 Ekim 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">62</column>
+            <column name="hicri_date">31.10.2019</column>
+            <column name="hicri_title">3 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">03.03.1441</column>
+            <column name="hicri_miladiuzun">31 Ekim 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">63</column>
+            <column name="hicri_date">01.11.2019</column>
+            <column name="hicri_title">4 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">04.03.1441</column>
+            <column name="hicri_miladiuzun">01 Kasım 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">64</column>
+            <column name="hicri_date">02.11.2019</column>
+            <column name="hicri_title">5 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">05.03.1441</column>
+            <column name="hicri_miladiuzun">02 Kasım 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">65</column>
+            <column name="hicri_date">03.11.2019</column>
+            <column name="hicri_title">6 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">06.03.1441</column>
+            <column name="hicri_miladiuzun">03 Kasım 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">66</column>
+            <column name="hicri_date">04.11.2019</column>
+            <column name="hicri_title">7 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">07.03.1441</column>
+            <column name="hicri_miladiuzun">04 Kasım 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">67</column>
+            <column name="hicri_date">05.11.2019</column>
+            <column name="hicri_title">8 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">08.03.1441</column>
+            <column name="hicri_miladiuzun">05 Kasım 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">68</column>
+            <column name="hicri_date">06.11.2019</column>
+            <column name="hicri_title">9 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">09.03.1441</column>
+            <column name="hicri_miladiuzun">06 Kasım 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">69</column>
+            <column name="hicri_date">07.11.2019</column>
+            <column name="hicri_title">10 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">10.03.1441</column>
+            <column name="hicri_miladiuzun">07 Kasım 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">70</column>
+            <column name="hicri_date">08.11.2019</column>
+            <column name="hicri_title">11 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">11.03.1441</column>
+            <column name="hicri_miladiuzun">08 Kasım 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">71</column>
+            <column name="hicri_date">09.11.2019</column>
+            <column name="hicri_title">12 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">12.03.1441</column>
+            <column name="hicri_miladiuzun">09 Kasım 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">72</column>
+            <column name="hicri_date">10.11.2019</column>
+            <column name="hicri_title">13 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">13.03.1441</column>
+            <column name="hicri_miladiuzun">10 Kasım 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">73</column>
+            <column name="hicri_date">11.11.2019</column>
+            <column name="hicri_title">14 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">14.03.1441</column>
+            <column name="hicri_miladiuzun">11 Kasım 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">74</column>
+            <column name="hicri_date">12.11.2019</column>
+            <column name="hicri_title">15 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">15.03.1441</column>
+            <column name="hicri_miladiuzun">12 Kasım 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">75</column>
+            <column name="hicri_date">13.11.2019</column>
+            <column name="hicri_title">16 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">16.03.1441</column>
+            <column name="hicri_miladiuzun">13 Kasım 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">76</column>
+            <column name="hicri_date">14.11.2019</column>
+            <column name="hicri_title">17 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">17.03.1441</column>
+            <column name="hicri_miladiuzun">14 Kasım 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">77</column>
+            <column name="hicri_date">15.11.2019</column>
+            <column name="hicri_title">18 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">18.03.1441</column>
+            <column name="hicri_miladiuzun">15 Kasım 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">78</column>
+            <column name="hicri_date">16.11.2019</column>
+            <column name="hicri_title">19 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">19.03.1441</column>
+            <column name="hicri_miladiuzun">16 Kasım 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">79</column>
+            <column name="hicri_date">17.11.2019</column>
+            <column name="hicri_title">20 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">20.03.1441</column>
+            <column name="hicri_miladiuzun">17 Kasım 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">80</column>
+            <column name="hicri_date">18.11.2019</column>
+            <column name="hicri_title">21 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">21.03.1441</column>
+            <column name="hicri_miladiuzun">18 Kasım 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">81</column>
+            <column name="hicri_date">19.11.2019</column>
+            <column name="hicri_title">22 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">22.03.1441</column>
+            <column name="hicri_miladiuzun">19 Kasım 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">82</column>
+            <column name="hicri_date">20.11.2019</column>
+            <column name="hicri_title">23 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">23.03.1441</column>
+            <column name="hicri_miladiuzun">20 Kasım 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">83</column>
+            <column name="hicri_date">21.11.2019</column>
+            <column name="hicri_title">24 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">24.03.1441</column>
+            <column name="hicri_miladiuzun">21 Kasım 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">84</column>
+            <column name="hicri_date">22.11.2019</column>
+            <column name="hicri_title">25 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">25.03.1441</column>
+            <column name="hicri_miladiuzun">22 Kasım 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">85</column>
+            <column name="hicri_date">23.11.2019</column>
+            <column name="hicri_title">26 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">26.03.1441</column>
+            <column name="hicri_miladiuzun">23 Kasım 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">86</column>
+            <column name="hicri_date">24.11.2019</column>
+            <column name="hicri_title">27 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">27.03.1441</column>
+            <column name="hicri_miladiuzun">24 Kasım 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">87</column>
+            <column name="hicri_date">25.11.2019</column>
+            <column name="hicri_title">28 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">28.03.1441</column>
+            <column name="hicri_miladiuzun">25 Kasım 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">88</column>
+            <column name="hicri_date">26.11.2019</column>
+            <column name="hicri_title">29 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">29.03.1441</column>
+            <column name="hicri_miladiuzun">26 Kasım 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">89</column>
+            <column name="hicri_date">27.11.2019</column>
+            <column name="hicri_title">30 Rebîulevvel 1441</column>
+            <column name="hicri_dateshort">30.03.1441</column>
+            <column name="hicri_miladiuzun">27 Kasım 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">90</column>
+            <column name="hicri_date">28.11.2019</column>
+            <column name="hicri_title">1 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">01.04.1441</column>
+            <column name="hicri_miladiuzun">28 Kasım 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">91</column>
+            <column name="hicri_date">29.11.2019</column>
+            <column name="hicri_title">2 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">02.04.1441</column>
+            <column name="hicri_miladiuzun">29 Kasım 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">92</column>
+            <column name="hicri_date">30.11.2019</column>
+            <column name="hicri_title">3 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">03.04.1441</column>
+            <column name="hicri_miladiuzun">30 Kasım 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">93</column>
+            <column name="hicri_date">01.12.2019</column>
+            <column name="hicri_title">4 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">04.04.1441</column>
+            <column name="hicri_miladiuzun">01 Aralık 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">94</column>
+            <column name="hicri_date">02.12.2019</column>
+            <column name="hicri_title">5 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">05.04.1441</column>
+            <column name="hicri_miladiuzun">02 Aralık 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">95</column>
+            <column name="hicri_date">03.12.2019</column>
+            <column name="hicri_title">6 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">06.04.1441</column>
+            <column name="hicri_miladiuzun">03 Aralık 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">96</column>
+            <column name="hicri_date">04.12.2019</column>
+            <column name="hicri_title">7 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">07.04.1441</column>
+            <column name="hicri_miladiuzun">04 Aralık 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">97</column>
+            <column name="hicri_date">05.12.2019</column>
+            <column name="hicri_title">8 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">08.04.1441</column>
+            <column name="hicri_miladiuzun">05 Aralık 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">98</column>
+            <column name="hicri_date">06.12.2019</column>
+            <column name="hicri_title">9 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">09.04.1441</column>
+            <column name="hicri_miladiuzun">06 Aralık 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">99</column>
+            <column name="hicri_date">07.12.2019</column>
+            <column name="hicri_title">10 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">10.04.1441</column>
+            <column name="hicri_miladiuzun">07 Aralık 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">100</column>
+            <column name="hicri_date">08.12.2019</column>
+            <column name="hicri_title">11 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">11.04.1441</column>
+            <column name="hicri_miladiuzun">08 Aralık 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">101</column>
+            <column name="hicri_date">09.12.2019</column>
+            <column name="hicri_title">12 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">12.04.1441</column>
+            <column name="hicri_miladiuzun">09 Aralık 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">102</column>
+            <column name="hicri_date">10.12.2019</column>
+            <column name="hicri_title">13 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">13.04.1441</column>
+            <column name="hicri_miladiuzun">10 Aralık 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">103</column>
+            <column name="hicri_date">11.12.2019</column>
+            <column name="hicri_title">14 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">14.04.1441</column>
+            <column name="hicri_miladiuzun">11 Aralık 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">104</column>
+            <column name="hicri_date">12.12.2019</column>
+            <column name="hicri_title">15 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">15.04.1441</column>
+            <column name="hicri_miladiuzun">12 Aralık 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">105</column>
+            <column name="hicri_date">13.12.2019</column>
+            <column name="hicri_title">16 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">16.04.1441</column>
+            <column name="hicri_miladiuzun">13 Aralık 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">106</column>
+            <column name="hicri_date">14.12.2019</column>
+            <column name="hicri_title">17 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">17.04.1441</column>
+            <column name="hicri_miladiuzun">14 Aralık 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">107</column>
+            <column name="hicri_date">15.12.2019</column>
+            <column name="hicri_title">18 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">18.04.1441</column>
+            <column name="hicri_miladiuzun">15 Aralık 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">108</column>
+            <column name="hicri_date">16.12.2019</column>
+            <column name="hicri_title">19 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">19.04.1441</column>
+            <column name="hicri_miladiuzun">16 Aralık 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">109</column>
+            <column name="hicri_date">17.12.2019</column>
+            <column name="hicri_title">20 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">20.04.1441</column>
+            <column name="hicri_miladiuzun">17 Aralık 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">110</column>
+            <column name="hicri_date">18.12.2019</column>
+            <column name="hicri_title">21 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">21.04.1441</column>
+            <column name="hicri_miladiuzun">18 Aralık 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">111</column>
+            <column name="hicri_date">19.12.2019</column>
+            <column name="hicri_title">22 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">22.04.1441</column>
+            <column name="hicri_miladiuzun">19 Aralık 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">112</column>
+            <column name="hicri_date">20.12.2019</column>
+            <column name="hicri_title">23 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">23.04.1441</column>
+            <column name="hicri_miladiuzun">20 Aralık 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">113</column>
+            <column name="hicri_date">21.12.2019</column>
+            <column name="hicri_title">24 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">24.04.1441</column>
+            <column name="hicri_miladiuzun">21 Aralık 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">114</column>
+            <column name="hicri_date">22.12.2019</column>
+            <column name="hicri_title">25 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">25.04.1441</column>
+            <column name="hicri_miladiuzun">22 Aralık 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">115</column>
+            <column name="hicri_date">23.12.2019</column>
+            <column name="hicri_title">26 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">26.04.1441</column>
+            <column name="hicri_miladiuzun">23 Aralık 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">116</column>
+            <column name="hicri_date">24.12.2019</column>
+            <column name="hicri_title">27 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">27.04.1441</column>
+            <column name="hicri_miladiuzun">24 Aralık 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">117</column>
+            <column name="hicri_date">25.12.2019</column>
+            <column name="hicri_title">28 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">28.04.1441</column>
+            <column name="hicri_miladiuzun">25 Aralık 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">118</column>
+            <column name="hicri_date">26.12.2019</column>
+            <column name="hicri_title">29 Rebîulâhir 1441</column>
+            <column name="hicri_dateshort">29.04.1441</column>
+            <column name="hicri_miladiuzun">26 Aralık 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">119</column>
+            <column name="hicri_date">07.01.2019</column>
+            <column name="hicri_title">1 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">01.05.1440</column>
+            <column name="hicri_miladiuzun">07 Ocak 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">120</column>
+            <column name="hicri_date">08.01.2019</column>
+            <column name="hicri_title">2 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">02.05.1440</column>
+            <column name="hicri_miladiuzun">08 Ocak 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">121</column>
+            <column name="hicri_date">09.01.2019</column>
+            <column name="hicri_title">3 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">03.05.1440</column>
+            <column name="hicri_miladiuzun">09 Ocak 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">122</column>
+            <column name="hicri_date">10.01.2019</column>
+            <column name="hicri_title">4 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">04.05.1440</column>
+            <column name="hicri_miladiuzun">10 Ocak 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">123</column>
+            <column name="hicri_date">11.01.2019</column>
+            <column name="hicri_title">5 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">05.05.1440</column>
+            <column name="hicri_miladiuzun">11 Ocak 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">124</column>
+            <column name="hicri_date">12.01.2019</column>
+            <column name="hicri_title">6 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">06.05.1440</column>
+            <column name="hicri_miladiuzun">12 Ocak 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">125</column>
+            <column name="hicri_date">13.01.2019</column>
+            <column name="hicri_title">7 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">07.05.1440</column>
+            <column name="hicri_miladiuzun">13 Ocak 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">126</column>
+            <column name="hicri_date">14.01.2019</column>
+            <column name="hicri_title">8 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">08.05.1440</column>
+            <column name="hicri_miladiuzun">14 Ocak 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">127</column>
+            <column name="hicri_date">15.01.2019</column>
+            <column name="hicri_title">9 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">09.05.1440</column>
+            <column name="hicri_miladiuzun">15 Ocak 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">128</column>
+            <column name="hicri_date">16.01.2019</column>
+            <column name="hicri_title">10 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">10.05.1440</column>
+            <column name="hicri_miladiuzun">16 Ocak 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">129</column>
+            <column name="hicri_date">17.01.2019</column>
+            <column name="hicri_title">11 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">11.05.1440</column>
+            <column name="hicri_miladiuzun">17 Ocak 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">130</column>
+            <column name="hicri_date">18.01.2019</column>
+            <column name="hicri_title">12 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">12.05.1440</column>
+            <column name="hicri_miladiuzun">18 Ocak 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">131</column>
+            <column name="hicri_date">19.01.2019</column>
+            <column name="hicri_title">13 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">13.05.1440</column>
+            <column name="hicri_miladiuzun">19 Ocak 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">132</column>
+            <column name="hicri_date">20.01.2019</column>
+            <column name="hicri_title">14 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">14.05.1440</column>
+            <column name="hicri_miladiuzun">20 Ocak 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">133</column>
+            <column name="hicri_date">21.01.2019</column>
+            <column name="hicri_title">15 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">15.05.1440</column>
+            <column name="hicri_miladiuzun">21 Ocak 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">134</column>
+            <column name="hicri_date">22.01.2019</column>
+            <column name="hicri_title">16 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">16.05.1440</column>
+            <column name="hicri_miladiuzun">22 Ocak 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">135</column>
+            <column name="hicri_date">23.01.2019</column>
+            <column name="hicri_title">17 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">17.05.1440</column>
+            <column name="hicri_miladiuzun">23 Ocak 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">136</column>
+            <column name="hicri_date">24.01.2019</column>
+            <column name="hicri_title">18 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">18.05.1440</column>
+            <column name="hicri_miladiuzun">24 Ocak 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">137</column>
+            <column name="hicri_date">25.01.2019</column>
+            <column name="hicri_title">19 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">19.05.1440</column>
+            <column name="hicri_miladiuzun">25 Ocak 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">138</column>
+            <column name="hicri_date">26.01.2019</column>
+            <column name="hicri_title">20 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">20.05.1440</column>
+            <column name="hicri_miladiuzun">26 Ocak 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">139</column>
+            <column name="hicri_date">27.01.2019</column>
+            <column name="hicri_title">21 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">21.05.1440</column>
+            <column name="hicri_miladiuzun">27 Ocak 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">140</column>
+            <column name="hicri_date">28.01.2019</column>
+            <column name="hicri_title">22 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">22.05.1440</column>
+            <column name="hicri_miladiuzun">28 Ocak 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">141</column>
+            <column name="hicri_date">29.01.2019</column>
+            <column name="hicri_title">23 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">23.05.1440</column>
+            <column name="hicri_miladiuzun">29 Ocak 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">142</column>
+            <column name="hicri_date">30.01.2019</column>
+            <column name="hicri_title">24 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">24.05.1440</column>
+            <column name="hicri_miladiuzun">30 Ocak 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">143</column>
+            <column name="hicri_date">31.01.2019</column>
+            <column name="hicri_title">25 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">25.05.1440</column>
+            <column name="hicri_miladiuzun">31 Ocak 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">144</column>
+            <column name="hicri_date">01.02.2019</column>
+            <column name="hicri_title">26 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">26.05.1440</column>
+            <column name="hicri_miladiuzun">01 Şubat 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">145</column>
+            <column name="hicri_date">02.02.2019</column>
+            <column name="hicri_title">27 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">27.05.1440</column>
+            <column name="hicri_miladiuzun">02 Şubat 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">146</column>
+            <column name="hicri_date">03.02.2019</column>
+            <column name="hicri_title">28 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">28.05.1440</column>
+            <column name="hicri_miladiuzun">03 Şubat 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">147</column>
+            <column name="hicri_date">04.02.2019</column>
+            <column name="hicri_title">29 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">29.05.1440</column>
+            <column name="hicri_miladiuzun">04 Şubat 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">148</column>
+            <column name="hicri_date">05.02.2019</column>
+            <column name="hicri_title">30 Cemâziyelevvel 1440</column>
+            <column name="hicri_dateshort">30.05.1440</column>
+            <column name="hicri_miladiuzun">05 Şubat 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">149</column>
+            <column name="hicri_date">06.02.2019</column>
+            <column name="hicri_title">1 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">01.06.1440</column>
+            <column name="hicri_miladiuzun">06 Şubat 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">150</column>
+            <column name="hicri_date">07.02.2019</column>
+            <column name="hicri_title">2 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">02.06.1440</column>
+            <column name="hicri_miladiuzun">07 Şubat 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">151</column>
+            <column name="hicri_date">08.02.2019</column>
+            <column name="hicri_title">3 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">03.06.1440</column>
+            <column name="hicri_miladiuzun">08 Şubat 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">152</column>
+            <column name="hicri_date">09.02.2019</column>
+            <column name="hicri_title">4 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">04.06.1440</column>
+            <column name="hicri_miladiuzun">09 Şubat 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">153</column>
+            <column name="hicri_date">10.02.2019</column>
+            <column name="hicri_title">5 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">05.06.1440</column>
+            <column name="hicri_miladiuzun">10 Şubat 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">154</column>
+            <column name="hicri_date">11.02.2019</column>
+            <column name="hicri_title">6 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">06.06.1440</column>
+            <column name="hicri_miladiuzun">11 Şubat 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">155</column>
+            <column name="hicri_date">12.02.2019</column>
+            <column name="hicri_title">7 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">07.06.1440</column>
+            <column name="hicri_miladiuzun">12 Şubat 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">156</column>
+            <column name="hicri_date">13.02.2019</column>
+            <column name="hicri_title">8 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">08.06.1440</column>
+            <column name="hicri_miladiuzun">13 Şubat 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">157</column>
+            <column name="hicri_date">14.02.2019</column>
+            <column name="hicri_title">9 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">09.06.1440</column>
+            <column name="hicri_miladiuzun">14 Şubat 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">158</column>
+            <column name="hicri_date">15.02.2019</column>
+            <column name="hicri_title">10 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">10.06.1440</column>
+            <column name="hicri_miladiuzun">15 Şubat 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">159</column>
+            <column name="hicri_date">16.02.2019</column>
+            <column name="hicri_title">11 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">11.06.1440</column>
+            <column name="hicri_miladiuzun">16 Şubat 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">160</column>
+            <column name="hicri_date">17.02.2019</column>
+            <column name="hicri_title">12 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">12.06.1440</column>
+            <column name="hicri_miladiuzun">17 Şubat 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">161</column>
+            <column name="hicri_date">18.02.2019</column>
+            <column name="hicri_title">13 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">13.06.1440</column>
+            <column name="hicri_miladiuzun">18 Şubat 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">162</column>
+            <column name="hicri_date">19.02.2019</column>
+            <column name="hicri_title">14 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">14.06.1440</column>
+            <column name="hicri_miladiuzun">19 Şubat 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">163</column>
+            <column name="hicri_date">20.02.2019</column>
+            <column name="hicri_title">15 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">15.06.1440</column>
+            <column name="hicri_miladiuzun">20 Şubat 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">164</column>
+            <column name="hicri_date">21.02.2019</column>
+            <column name="hicri_title">16 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">16.06.1440</column>
+            <column name="hicri_miladiuzun">21 Şubat 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">165</column>
+            <column name="hicri_date">22.02.2019</column>
+            <column name="hicri_title">17 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">17.06.1440</column>
+            <column name="hicri_miladiuzun">22 Şubat 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">166</column>
+            <column name="hicri_date">23.02.2019</column>
+            <column name="hicri_title">18 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">18.06.1440</column>
+            <column name="hicri_miladiuzun">23 Şubat 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">167</column>
+            <column name="hicri_date">24.02.2019</column>
+            <column name="hicri_title">19 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">19.06.1440</column>
+            <column name="hicri_miladiuzun">24 Şubat 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">168</column>
+            <column name="hicri_date">25.02.2019</column>
+            <column name="hicri_title">20 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">20.06.1440</column>
+            <column name="hicri_miladiuzun">25 Şubat 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">169</column>
+            <column name="hicri_date">26.02.2019</column>
+            <column name="hicri_title">21 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">21.06.1440</column>
+            <column name="hicri_miladiuzun">26 Şubat 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">170</column>
+            <column name="hicri_date">27.02.2019</column>
+            <column name="hicri_title">22 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">22.06.1440</column>
+            <column name="hicri_miladiuzun">27 Şubat 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">171</column>
+            <column name="hicri_date">28.02.2019</column>
+            <column name="hicri_title">23 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">23.06.1440</column>
+            <column name="hicri_miladiuzun">28 Şubat 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">172</column>
+            <column name="hicri_date">01.03.2019</column>
+            <column name="hicri_title">24 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">24.06.1440</column>
+            <column name="hicri_miladiuzun">01 Mart 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">173</column>
+            <column name="hicri_date">02.03.2019</column>
+            <column name="hicri_title">25 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">25.06.1440</column>
+            <column name="hicri_miladiuzun">02 Mart 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">174</column>
+            <column name="hicri_date">03.03.2019</column>
+            <column name="hicri_title">26 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">26.06.1440</column>
+            <column name="hicri_miladiuzun">03 Mart 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">175</column>
+            <column name="hicri_date">04.03.2019</column>
+            <column name="hicri_title">27 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">27.06.1440</column>
+            <column name="hicri_miladiuzun">04 Mart 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">176</column>
+            <column name="hicri_date">05.03.2019</column>
+            <column name="hicri_title">28 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">28.06.1440</column>
+            <column name="hicri_miladiuzun">05 Mart 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">177</column>
+            <column name="hicri_date">06.03.2019</column>
+            <column name="hicri_title">29 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">29.06.1440</column>
+            <column name="hicri_miladiuzun">06 Mart 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">178</column>
+            <column name="hicri_date">07.03.2019</column>
+            <column name="hicri_title">30 Cemâziyelâhir 1440</column>
+            <column name="hicri_dateshort">30.06.1440</column>
+            <column name="hicri_miladiuzun">07 Mart 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">179</column>
+            <column name="hicri_date">08.03.2019</column>
+            <column name="hicri_title">1 Recep 1440</column>
+            <column name="hicri_dateshort">01.07.1440</column>
+            <column name="hicri_miladiuzun">08 Mart 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">180</column>
+            <column name="hicri_date">09.03.2019</column>
+            <column name="hicri_title">2 Recep 1440</column>
+            <column name="hicri_dateshort">02.07.1440</column>
+            <column name="hicri_miladiuzun">09 Mart 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">181</column>
+            <column name="hicri_date">10.03.2019</column>
+            <column name="hicri_title">3 Recep 1440</column>
+            <column name="hicri_dateshort">03.07.1440</column>
+            <column name="hicri_miladiuzun">10 Mart 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">182</column>
+            <column name="hicri_date">11.03.2019</column>
+            <column name="hicri_title">4 Recep 1440</column>
+            <column name="hicri_dateshort">04.07.1440</column>
+            <column name="hicri_miladiuzun">11 Mart 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">183</column>
+            <column name="hicri_date">12.03.2019</column>
+            <column name="hicri_title">5 Recep 1440</column>
+            <column name="hicri_dateshort">05.07.1440</column>
+            <column name="hicri_miladiuzun">12 Mart 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">184</column>
+            <column name="hicri_date">13.03.2019</column>
+            <column name="hicri_title">6 Recep 1440</column>
+            <column name="hicri_dateshort">06.07.1440</column>
+            <column name="hicri_miladiuzun">13 Mart 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">185</column>
+            <column name="hicri_date">14.03.2019</column>
+            <column name="hicri_title">7 Recep 1440</column>
+            <column name="hicri_dateshort">07.07.1440</column>
+            <column name="hicri_miladiuzun">14 Mart 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">186</column>
+            <column name="hicri_date">15.03.2019</column>
+            <column name="hicri_title">8 Recep 1440</column>
+            <column name="hicri_dateshort">08.07.1440</column>
+            <column name="hicri_miladiuzun">15 Mart 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">187</column>
+            <column name="hicri_date">16.03.2019</column>
+            <column name="hicri_title">9 Recep 1440</column>
+            <column name="hicri_dateshort">09.07.1440</column>
+            <column name="hicri_miladiuzun">16 Mart 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">188</column>
+            <column name="hicri_date">17.03.2019</column>
+            <column name="hicri_title">10 Recep 1440</column>
+            <column name="hicri_dateshort">10.07.1440</column>
+            <column name="hicri_miladiuzun">17 Mart 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">189</column>
+            <column name="hicri_date">18.03.2019</column>
+            <column name="hicri_title">11 Recep 1440</column>
+            <column name="hicri_dateshort">11.07.1440</column>
+            <column name="hicri_miladiuzun">18 Mart 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">190</column>
+            <column name="hicri_date">19.03.2019</column>
+            <column name="hicri_title">12 Recep 1440</column>
+            <column name="hicri_dateshort">12.07.1440</column>
+            <column name="hicri_miladiuzun">19 Mart 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">191</column>
+            <column name="hicri_date">20.03.2019</column>
+            <column name="hicri_title">13 Recep 1440</column>
+            <column name="hicri_dateshort">13.07.1440</column>
+            <column name="hicri_miladiuzun">20 Mart 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">192</column>
+            <column name="hicri_date">21.03.2019</column>
+            <column name="hicri_title">14 Recep 1440</column>
+            <column name="hicri_dateshort">14.07.1440</column>
+            <column name="hicri_miladiuzun">21 Mart 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">193</column>
+            <column name="hicri_date">22.03.2019</column>
+            <column name="hicri_title">15 Recep 1440</column>
+            <column name="hicri_dateshort">15.07.1440</column>
+            <column name="hicri_miladiuzun">22 Mart 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">194</column>
+            <column name="hicri_date">23.03.2019</column>
+            <column name="hicri_title">16 Recep 1440</column>
+            <column name="hicri_dateshort">16.07.1440</column>
+            <column name="hicri_miladiuzun">23 Mart 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">195</column>
+            <column name="hicri_date">24.03.2019</column>
+            <column name="hicri_title">17 Recep 1440</column>
+            <column name="hicri_dateshort">17.07.1440</column>
+            <column name="hicri_miladiuzun">24 Mart 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">196</column>
+            <column name="hicri_date">25.03.2019</column>
+            <column name="hicri_title">18 Recep 1440</column>
+            <column name="hicri_dateshort">18.07.1440</column>
+            <column name="hicri_miladiuzun">25 Mart 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">197</column>
+            <column name="hicri_date">26.03.2019</column>
+            <column name="hicri_title">19 Recep 1440</column>
+            <column name="hicri_dateshort">19.07.1440</column>
+            <column name="hicri_miladiuzun">26 Mart 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">198</column>
+            <column name="hicri_date">27.03.2019</column>
+            <column name="hicri_title">20 Recep 1440</column>
+            <column name="hicri_dateshort">20.07.1440</column>
+            <column name="hicri_miladiuzun">27 Mart 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">199</column>
+            <column name="hicri_date">28.03.2019</column>
+            <column name="hicri_title">21 Recep 1440</column>
+            <column name="hicri_dateshort">21.07.1440</column>
+            <column name="hicri_miladiuzun">28 Mart 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">200</column>
+            <column name="hicri_date">29.03.2019</column>
+            <column name="hicri_title">22 Recep 1440</column>
+            <column name="hicri_dateshort">22.07.1440</column>
+            <column name="hicri_miladiuzun">29 Mart 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">201</column>
+            <column name="hicri_date">30.03.2019</column>
+            <column name="hicri_title">23 Recep 1440</column>
+            <column name="hicri_dateshort">23.07.1440</column>
+            <column name="hicri_miladiuzun">30 Mart 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">202</column>
+            <column name="hicri_date">31.03.2019</column>
+            <column name="hicri_title">24 Recep 1440</column>
+            <column name="hicri_dateshort">24.07.1440</column>
+            <column name="hicri_miladiuzun">31 Mart 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">203</column>
+            <column name="hicri_date">01.04.2019</column>
+            <column name="hicri_title">25 Recep 1440</column>
+            <column name="hicri_dateshort">25.07.1440</column>
+            <column name="hicri_miladiuzun">01 Nisan 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">204</column>
+            <column name="hicri_date">02.04.2019</column>
+            <column name="hicri_title">26 Recep 1440</column>
+            <column name="hicri_dateshort">26.07.1440</column>
+            <column name="hicri_miladiuzun">02 Nisan 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">205</column>
+            <column name="hicri_date">03.04.2019</column>
+            <column name="hicri_title">27 Recep 1440</column>
+            <column name="hicri_dateshort">27.07.1440</column>
+            <column name="hicri_miladiuzun">03 Nisan 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">206</column>
+            <column name="hicri_date">04.04.2019</column>
+            <column name="hicri_title">28 Recep 1440</column>
+            <column name="hicri_dateshort">28.07.1440</column>
+            <column name="hicri_miladiuzun">04 Nisan 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">207</column>
+            <column name="hicri_date">05.04.2019</column>
+            <column name="hicri_title">29 Recep 1440</column>
+            <column name="hicri_dateshort">29.07.1440</column>
+            <column name="hicri_miladiuzun">05 Nisan 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">208</column>
+            <column name="hicri_date">06.04.2019</column>
+            <column name="hicri_title">1 Şaban 1440</column>
+            <column name="hicri_dateshort">01.08.1440</column>
+            <column name="hicri_miladiuzun">06 Nisan 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">209</column>
+            <column name="hicri_date">07.04.2019</column>
+            <column name="hicri_title">2 Şaban 1440</column>
+            <column name="hicri_dateshort">02.08.1440</column>
+            <column name="hicri_miladiuzun">07 Nisan 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">210</column>
+            <column name="hicri_date">08.04.2019</column>
+            <column name="hicri_title">3 Şaban 1440</column>
+            <column name="hicri_dateshort">03.08.1440</column>
+            <column name="hicri_miladiuzun">08 Nisan 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">211</column>
+            <column name="hicri_date">09.04.2019</column>
+            <column name="hicri_title">4 Şaban 1440</column>
+            <column name="hicri_dateshort">04.08.1440</column>
+            <column name="hicri_miladiuzun">09 Nisan 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">212</column>
+            <column name="hicri_date">10.04.2019</column>
+            <column name="hicri_title">5 Şaban 1440</column>
+            <column name="hicri_dateshort">05.08.1440</column>
+            <column name="hicri_miladiuzun">10 Nisan 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">213</column>
+            <column name="hicri_date">11.04.2019</column>
+            <column name="hicri_title">6 Şaban 1440</column>
+            <column name="hicri_dateshort">06.08.1440</column>
+            <column name="hicri_miladiuzun">11 Nisan 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">214</column>
+            <column name="hicri_date">12.04.2019</column>
+            <column name="hicri_title">7 Şaban 1440</column>
+            <column name="hicri_dateshort">07.08.1440</column>
+            <column name="hicri_miladiuzun">12 Nisan 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">215</column>
+            <column name="hicri_date">13.04.2019</column>
+            <column name="hicri_title">8 Şaban 1440</column>
+            <column name="hicri_dateshort">08.08.1440</column>
+            <column name="hicri_miladiuzun">13 Nisan 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">216</column>
+            <column name="hicri_date">14.04.2019</column>
+            <column name="hicri_title">9 Şaban 1440</column>
+            <column name="hicri_dateshort">09.08.1440</column>
+            <column name="hicri_miladiuzun">14 Nisan 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">217</column>
+            <column name="hicri_date">15.04.2019</column>
+            <column name="hicri_title">10 Şaban 1440</column>
+            <column name="hicri_dateshort">10.08.1440</column>
+            <column name="hicri_miladiuzun">15 Nisan 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">218</column>
+            <column name="hicri_date">16.04.2019</column>
+            <column name="hicri_title">11 Şaban 1440</column>
+            <column name="hicri_dateshort">11.08.1440</column>
+            <column name="hicri_miladiuzun">16 Nisan 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">219</column>
+            <column name="hicri_date">17.04.2019</column>
+            <column name="hicri_title">12 Şaban 1440</column>
+            <column name="hicri_dateshort">12.08.1440</column>
+            <column name="hicri_miladiuzun">17 Nisan 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">220</column>
+            <column name="hicri_date">18.04.2019</column>
+            <column name="hicri_title">13 Şaban 1440</column>
+            <column name="hicri_dateshort">13.08.1440</column>
+            <column name="hicri_miladiuzun">18 Nisan 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">221</column>
+            <column name="hicri_date">19.04.2019</column>
+            <column name="hicri_title">14 Şaban 1440</column>
+            <column name="hicri_dateshort">14.08.1440</column>
+            <column name="hicri_miladiuzun">19 Nisan 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">222</column>
+            <column name="hicri_date">20.04.2019</column>
+            <column name="hicri_title">15 Şaban 1440</column>
+            <column name="hicri_dateshort">15.08.1440</column>
+            <column name="hicri_miladiuzun">20 Nisan 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">223</column>
+            <column name="hicri_date">21.04.2019</column>
+            <column name="hicri_title">16 Şaban 1440</column>
+            <column name="hicri_dateshort">16.08.1440</column>
+            <column name="hicri_miladiuzun">21 Nisan 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">224</column>
+            <column name="hicri_date">22.04.2019</column>
+            <column name="hicri_title">17 Şaban 1440</column>
+            <column name="hicri_dateshort">17.08.1440</column>
+            <column name="hicri_miladiuzun">22 Nisan 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">225</column>
+            <column name="hicri_date">23.04.2019</column>
+            <column name="hicri_title">18 Şaban 1440</column>
+            <column name="hicri_dateshort">18.08.1440</column>
+            <column name="hicri_miladiuzun">23 Nisan 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">226</column>
+            <column name="hicri_date">24.04.2019</column>
+            <column name="hicri_title">19 Şaban 1440</column>
+            <column name="hicri_dateshort">19.08.1440</column>
+            <column name="hicri_miladiuzun">24 Nisan 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">227</column>
+            <column name="hicri_date">25.04.2019</column>
+            <column name="hicri_title">20 Şaban 1440</column>
+            <column name="hicri_dateshort">20.08.1440</column>
+            <column name="hicri_miladiuzun">25 Nisan 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">228</column>
+            <column name="hicri_date">26.04.2019</column>
+            <column name="hicri_title">21 Şaban 1440</column>
+            <column name="hicri_dateshort">21.08.1440</column>
+            <column name="hicri_miladiuzun">26 Nisan 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">229</column>
+            <column name="hicri_date">27.04.2019</column>
+            <column name="hicri_title">22 Şaban 1440</column>
+            <column name="hicri_dateshort">22.08.1440</column>
+            <column name="hicri_miladiuzun">27 Nisan 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">230</column>
+            <column name="hicri_date">28.04.2019</column>
+            <column name="hicri_title">23 Şaban 1440</column>
+            <column name="hicri_dateshort">23.08.1440</column>
+            <column name="hicri_miladiuzun">28 Nisan 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">231</column>
+            <column name="hicri_date">29.04.2019</column>
+            <column name="hicri_title">24 Şaban 1440</column>
+            <column name="hicri_dateshort">24.08.1440</column>
+            <column name="hicri_miladiuzun">29 Nisan 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">232</column>
+            <column name="hicri_date">30.04.2019</column>
+            <column name="hicri_title">25 Şaban 1440</column>
+            <column name="hicri_dateshort">25.08.1440</column>
+            <column name="hicri_miladiuzun">30 Nisan 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">233</column>
+            <column name="hicri_date">01.05.2019</column>
+            <column name="hicri_title">26 Şaban 1440</column>
+            <column name="hicri_dateshort">26.08.1440</column>
+            <column name="hicri_miladiuzun">01 Mayıs 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">234</column>
+            <column name="hicri_date">02.05.2019</column>
+            <column name="hicri_title">27 Şaban 1440</column>
+            <column name="hicri_dateshort">27.08.1440</column>
+            <column name="hicri_miladiuzun">02 Mayıs 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">235</column>
+            <column name="hicri_date">03.05.2019</column>
+            <column name="hicri_title">28 Şaban 1440</column>
+            <column name="hicri_dateshort">28.08.1440</column>
+            <column name="hicri_miladiuzun">03 Mayıs 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">236</column>
+            <column name="hicri_date">04.05.2019</column>
+            <column name="hicri_title">29 Şaban 1440</column>
+            <column name="hicri_dateshort">29.08.1440</column>
+            <column name="hicri_miladiuzun">04 Mayıs 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">237</column>
+            <column name="hicri_date">05.05.2019</column>
+            <column name="hicri_title">30 Şaban 1440</column>
+            <column name="hicri_dateshort">30.08.1440</column>
+            <column name="hicri_miladiuzun">05 Mayıs 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">238</column>
+            <column name="hicri_date">06.05.2019</column>
+            <column name="hicri_title">1 Ramazan 1440</column>
+            <column name="hicri_dateshort">01.09.1440</column>
+            <column name="hicri_miladiuzun">06 Mayıs 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">239</column>
+            <column name="hicri_date">07.05.2019</column>
+            <column name="hicri_title">2 Ramazan 1440</column>
+            <column name="hicri_dateshort">02.09.1440</column>
+            <column name="hicri_miladiuzun">07 Mayıs 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">240</column>
+            <column name="hicri_date">08.05.2019</column>
+            <column name="hicri_title">3 Ramazan 1440</column>
+            <column name="hicri_dateshort">03.09.1440</column>
+            <column name="hicri_miladiuzun">08 Mayıs 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">241</column>
+            <column name="hicri_date">09.05.2019</column>
+            <column name="hicri_title">4 Ramazan 1440</column>
+            <column name="hicri_dateshort">04.09.1440</column>
+            <column name="hicri_miladiuzun">09 Mayıs 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">242</column>
+            <column name="hicri_date">10.05.2019</column>
+            <column name="hicri_title">5 Ramazan 1440</column>
+            <column name="hicri_dateshort">05.09.1440</column>
+            <column name="hicri_miladiuzun">10 Mayıs 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">243</column>
+            <column name="hicri_date">11.05.2019</column>
+            <column name="hicri_title">6 Ramazan 1440</column>
+            <column name="hicri_dateshort">06.09.1440</column>
+            <column name="hicri_miladiuzun">11 Mayıs 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">244</column>
+            <column name="hicri_date">12.05.2019</column>
+            <column name="hicri_title">7 Ramazan 1440</column>
+            <column name="hicri_dateshort">07.09.1440</column>
+            <column name="hicri_miladiuzun">12 Mayıs 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">245</column>
+            <column name="hicri_date">13.05.2019</column>
+            <column name="hicri_title">8 Ramazan 1440</column>
+            <column name="hicri_dateshort">08.09.1440</column>
+            <column name="hicri_miladiuzun">13 Mayıs 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">246</column>
+            <column name="hicri_date">14.05.2019</column>
+            <column name="hicri_title">9 Ramazan 1440</column>
+            <column name="hicri_dateshort">09.09.1440</column>
+            <column name="hicri_miladiuzun">14 Mayıs 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">247</column>
+            <column name="hicri_date">15.05.2019</column>
+            <column name="hicri_title">10 Ramazan 1440</column>
+            <column name="hicri_dateshort">10.09.1440</column>
+            <column name="hicri_miladiuzun">15 Mayıs 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">248</column>
+            <column name="hicri_date">16.05.2019</column>
+            <column name="hicri_title">11 Ramazan 1440</column>
+            <column name="hicri_dateshort">11.09.1440</column>
+            <column name="hicri_miladiuzun">16 Mayıs 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">249</column>
+            <column name="hicri_date">17.05.2019</column>
+            <column name="hicri_title">12 Ramazan 1440</column>
+            <column name="hicri_dateshort">12.09.1440</column>
+            <column name="hicri_miladiuzun">17 Mayıs 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">250</column>
+            <column name="hicri_date">18.05.2019</column>
+            <column name="hicri_title">13 Ramazan 1440</column>
+            <column name="hicri_dateshort">13.09.1440</column>
+            <column name="hicri_miladiuzun">18 Mayıs 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">251</column>
+            <column name="hicri_date">19.05.2019</column>
+            <column name="hicri_title">14 Ramazan 1440</column>
+            <column name="hicri_dateshort">14.09.1440</column>
+            <column name="hicri_miladiuzun">19 Mayıs 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">252</column>
+            <column name="hicri_date">20.05.2019</column>
+            <column name="hicri_title">15 Ramazan 1440</column>
+            <column name="hicri_dateshort">15.09.1440</column>
+            <column name="hicri_miladiuzun">20 Mayıs 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">253</column>
+            <column name="hicri_date">21.05.2019</column>
+            <column name="hicri_title">16 Ramazan 1440</column>
+            <column name="hicri_dateshort">16.09.1440</column>
+            <column name="hicri_miladiuzun">21 Mayıs 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">254</column>
+            <column name="hicri_date">22.05.2019</column>
+            <column name="hicri_title">17 Ramazan 1440</column>
+            <column name="hicri_dateshort">17.09.1440</column>
+            <column name="hicri_miladiuzun">22 Mayıs 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">255</column>
+            <column name="hicri_date">23.05.2019</column>
+            <column name="hicri_title">18 Ramazan 1440</column>
+            <column name="hicri_dateshort">18.09.1440</column>
+            <column name="hicri_miladiuzun">23 Mayıs 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">256</column>
+            <column name="hicri_date">24.05.2019</column>
+            <column name="hicri_title">19 Ramazan 1440</column>
+            <column name="hicri_dateshort">19.09.1440</column>
+            <column name="hicri_miladiuzun">24 Mayıs 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">257</column>
+            <column name="hicri_date">25.05.2019</column>
+            <column name="hicri_title">20 Ramazan 1440</column>
+            <column name="hicri_dateshort">20.09.1440</column>
+            <column name="hicri_miladiuzun">25 Mayıs 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">258</column>
+            <column name="hicri_date">26.05.2019</column>
+            <column name="hicri_title">21 Ramazan 1440</column>
+            <column name="hicri_dateshort">21.09.1440</column>
+            <column name="hicri_miladiuzun">26 Mayıs 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">259</column>
+            <column name="hicri_date">27.05.2019</column>
+            <column name="hicri_title">22 Ramazan 1440</column>
+            <column name="hicri_dateshort">22.09.1440</column>
+            <column name="hicri_miladiuzun">27 Mayıs 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">260</column>
+            <column name="hicri_date">28.05.2019</column>
+            <column name="hicri_title">23 Ramazan 1440</column>
+            <column name="hicri_dateshort">23.09.1440</column>
+            <column name="hicri_miladiuzun">28 Mayıs 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">261</column>
+            <column name="hicri_date">29.05.2019</column>
+            <column name="hicri_title">24 Ramazan 1440</column>
+            <column name="hicri_dateshort">24.09.1440</column>
+            <column name="hicri_miladiuzun">29 Mayıs 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">262</column>
+            <column name="hicri_date">30.05.2019</column>
+            <column name="hicri_title">25 Ramazan 1440</column>
+            <column name="hicri_dateshort">25.09.1440</column>
+            <column name="hicri_miladiuzun">30 Mayıs 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">263</column>
+            <column name="hicri_date">31.05.2019</column>
+            <column name="hicri_title">26 Ramazan 1440</column>
+            <column name="hicri_dateshort">26.09.1440</column>
+            <column name="hicri_miladiuzun">31 Mayıs 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">264</column>
+            <column name="hicri_date">01.06.2019</column>
+            <column name="hicri_title">27 Ramazan 1440</column>
+            <column name="hicri_dateshort">27.09.1440</column>
+            <column name="hicri_miladiuzun">01 Haziran 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">265</column>
+            <column name="hicri_date">02.06.2019</column>
+            <column name="hicri_title">28 Ramazan 1440</column>
+            <column name="hicri_dateshort">28.09.1440</column>
+            <column name="hicri_miladiuzun">02 Haziran 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">266</column>
+            <column name="hicri_date">03.06.2019</column>
+            <column name="hicri_title">29 Ramazan 1440</column>
+            <column name="hicri_dateshort">29.09.1440</column>
+            <column name="hicri_miladiuzun">03 Haziran 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">267</column>
+            <column name="hicri_date">04.06.2019</column>
+            <column name="hicri_title">1 Şevval 1440</column>
+            <column name="hicri_dateshort">01.10.1440</column>
+            <column name="hicri_miladiuzun">04 Haziran 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">268</column>
+            <column name="hicri_date">05.06.2019</column>
+            <column name="hicri_title">2 Şevval 1440</column>
+            <column name="hicri_dateshort">02.10.1440</column>
+            <column name="hicri_miladiuzun">05 Haziran 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">269</column>
+            <column name="hicri_date">06.06.2019</column>
+            <column name="hicri_title">3 Şevval 1440</column>
+            <column name="hicri_dateshort">03.10.1440</column>
+            <column name="hicri_miladiuzun">06 Haziran 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">270</column>
+            <column name="hicri_date">07.06.2019</column>
+            <column name="hicri_title">4 Şevval 1440</column>
+            <column name="hicri_dateshort">04.10.1440</column>
+            <column name="hicri_miladiuzun">07 Haziran 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">271</column>
+            <column name="hicri_date">08.06.2019</column>
+            <column name="hicri_title">5 Şevval 1440</column>
+            <column name="hicri_dateshort">05.10.1440</column>
+            <column name="hicri_miladiuzun">08 Haziran 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">272</column>
+            <column name="hicri_date">09.06.2019</column>
+            <column name="hicri_title">6 Şevval 1440</column>
+            <column name="hicri_dateshort">06.10.1440</column>
+            <column name="hicri_miladiuzun">09 Haziran 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">273</column>
+            <column name="hicri_date">10.06.2019</column>
+            <column name="hicri_title">7 Şevval 1440</column>
+            <column name="hicri_dateshort">07.10.1440</column>
+            <column name="hicri_miladiuzun">10 Haziran 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">274</column>
+            <column name="hicri_date">11.06.2019</column>
+            <column name="hicri_title">8 Şevval 1440</column>
+            <column name="hicri_dateshort">08.10.1440</column>
+            <column name="hicri_miladiuzun">11 Haziran 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">275</column>
+            <column name="hicri_date">12.06.2019</column>
+            <column name="hicri_title">9 Şevval 1440</column>
+            <column name="hicri_dateshort">09.10.1440</column>
+            <column name="hicri_miladiuzun">12 Haziran 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">276</column>
+            <column name="hicri_date">13.06.2019</column>
+            <column name="hicri_title">10 Şevval 1440</column>
+            <column name="hicri_dateshort">10.10.1440</column>
+            <column name="hicri_miladiuzun">13 Haziran 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">277</column>
+            <column name="hicri_date">14.06.2019</column>
+            <column name="hicri_title">11 Şevval 1440</column>
+            <column name="hicri_dateshort">11.10.1440</column>
+            <column name="hicri_miladiuzun">14 Haziran 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">278</column>
+            <column name="hicri_date">15.06.2019</column>
+            <column name="hicri_title">12 Şevval 1440</column>
+            <column name="hicri_dateshort">12.10.1440</column>
+            <column name="hicri_miladiuzun">15 Haziran 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">279</column>
+            <column name="hicri_date">16.06.2019</column>
+            <column name="hicri_title">13 Şevval 1440</column>
+            <column name="hicri_dateshort">13.10.1440</column>
+            <column name="hicri_miladiuzun">16 Haziran 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">280</column>
+            <column name="hicri_date">17.06.2019</column>
+            <column name="hicri_title">14 Şevval 1440</column>
+            <column name="hicri_dateshort">14.10.1440</column>
+            <column name="hicri_miladiuzun">17 Haziran 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">281</column>
+            <column name="hicri_date">18.06.2019</column>
+            <column name="hicri_title">15 Şevval 1440</column>
+            <column name="hicri_dateshort">15.10.1440</column>
+            <column name="hicri_miladiuzun">18 Haziran 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">282</column>
+            <column name="hicri_date">19.06.2019</column>
+            <column name="hicri_title">16 Şevval 1440</column>
+            <column name="hicri_dateshort">16.10.1440</column>
+            <column name="hicri_miladiuzun">19 Haziran 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">283</column>
+            <column name="hicri_date">20.06.2019</column>
+            <column name="hicri_title">17 Şevval 1440</column>
+            <column name="hicri_dateshort">17.10.1440</column>
+            <column name="hicri_miladiuzun">20 Haziran 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">284</column>
+            <column name="hicri_date">21.06.2019</column>
+            <column name="hicri_title">18 Şevval 1440</column>
+            <column name="hicri_dateshort">18.10.1440</column>
+            <column name="hicri_miladiuzun">21 Haziran 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">285</column>
+            <column name="hicri_date">22.06.2019</column>
+            <column name="hicri_title">19 Şevval 1440</column>
+            <column name="hicri_dateshort">19.10.1440</column>
+            <column name="hicri_miladiuzun">22 Haziran 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">286</column>
+            <column name="hicri_date">23.06.2019</column>
+            <column name="hicri_title">20 Şevval 1440</column>
+            <column name="hicri_dateshort">20.10.1440</column>
+            <column name="hicri_miladiuzun">23 Haziran 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">287</column>
+            <column name="hicri_date">24.06.2019</column>
+            <column name="hicri_title">21 Şevval 1440</column>
+            <column name="hicri_dateshort">21.10.1440</column>
+            <column name="hicri_miladiuzun">24 Haziran 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">288</column>
+            <column name="hicri_date">25.06.2019</column>
+            <column name="hicri_title">22 Şevval 1440</column>
+            <column name="hicri_dateshort">22.10.1440</column>
+            <column name="hicri_miladiuzun">25 Haziran 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">289</column>
+            <column name="hicri_date">26.06.2019</column>
+            <column name="hicri_title">23 Şevval 1440</column>
+            <column name="hicri_dateshort">23.10.1440</column>
+            <column name="hicri_miladiuzun">26 Haziran 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">290</column>
+            <column name="hicri_date">27.06.2019</column>
+            <column name="hicri_title">24 Şevval 1440</column>
+            <column name="hicri_dateshort">24.10.1440</column>
+            <column name="hicri_miladiuzun">27 Haziran 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">291</column>
+            <column name="hicri_date">28.06.2019</column>
+            <column name="hicri_title">25 Şevval 1440</column>
+            <column name="hicri_dateshort">25.10.1440</column>
+            <column name="hicri_miladiuzun">28 Haziran 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">292</column>
+            <column name="hicri_date">29.06.2019</column>
+            <column name="hicri_title">26 Şevval 1440</column>
+            <column name="hicri_dateshort">26.10.1440</column>
+            <column name="hicri_miladiuzun">29 Haziran 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">293</column>
+            <column name="hicri_date">30.06.2019</column>
+            <column name="hicri_title">27 Şevval 1440</column>
+            <column name="hicri_dateshort">27.10.1440</column>
+            <column name="hicri_miladiuzun">30 Haziran 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">294</column>
+            <column name="hicri_date">01.07.2019</column>
+            <column name="hicri_title">28 Şevval 1440</column>
+            <column name="hicri_dateshort">28.10.1440</column>
+            <column name="hicri_miladiuzun">01 Temmuz 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">295</column>
+            <column name="hicri_date">02.07.2019</column>
+            <column name="hicri_title">29 Şevval 1440</column>
+            <column name="hicri_dateshort">29.10.1440</column>
+            <column name="hicri_miladiuzun">02 Temmuz 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">296</column>
+            <column name="hicri_date">03.07.2019</column>
+            <column name="hicri_title">30 Şevval 1440</column>
+            <column name="hicri_dateshort">30.10.1440</column>
+            <column name="hicri_miladiuzun">03 Temmuz 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">297</column>
+            <column name="hicri_date">04.07.2019</column>
+            <column name="hicri_title">1 Zilkâde 1440</column>
+            <column name="hicri_dateshort">01.11.1440</column>
+            <column name="hicri_miladiuzun">04 Temmuz 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">298</column>
+            <column name="hicri_date">05.07.2019</column>
+            <column name="hicri_title">2 Zilkâde 1440</column>
+            <column name="hicri_dateshort">02.11.1440</column>
+            <column name="hicri_miladiuzun">05 Temmuz 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">299</column>
+            <column name="hicri_date">06.07.2019</column>
+            <column name="hicri_title">3 Zilkâde 1440</column>
+            <column name="hicri_dateshort">03.11.1440</column>
+            <column name="hicri_miladiuzun">06 Temmuz 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">300</column>
+            <column name="hicri_date">07.07.2019</column>
+            <column name="hicri_title">4 Zilkâde 1440</column>
+            <column name="hicri_dateshort">04.11.1440</column>
+            <column name="hicri_miladiuzun">07 Temmuz 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">301</column>
+            <column name="hicri_date">08.07.2019</column>
+            <column name="hicri_title">5 Zilkâde 1440</column>
+            <column name="hicri_dateshort">05.11.1440</column>
+            <column name="hicri_miladiuzun">08 Temmuz 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">302</column>
+            <column name="hicri_date">09.07.2019</column>
+            <column name="hicri_title">6 Zilkâde 1440</column>
+            <column name="hicri_dateshort">06.11.1440</column>
+            <column name="hicri_miladiuzun">09 Temmuz 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">303</column>
+            <column name="hicri_date">10.07.2019</column>
+            <column name="hicri_title">7 Zilkâde 1440</column>
+            <column name="hicri_dateshort">07.11.1440</column>
+            <column name="hicri_miladiuzun">10 Temmuz 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">304</column>
+            <column name="hicri_date">11.07.2019</column>
+            <column name="hicri_title">8 Zilkâde 1440</column>
+            <column name="hicri_dateshort">08.11.1440</column>
+            <column name="hicri_miladiuzun">11 Temmuz 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">305</column>
+            <column name="hicri_date">12.07.2019</column>
+            <column name="hicri_title">9 Zilkâde 1440</column>
+            <column name="hicri_dateshort">09.11.1440</column>
+            <column name="hicri_miladiuzun">12 Temmuz 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">306</column>
+            <column name="hicri_date">13.07.2019</column>
+            <column name="hicri_title">10 Zilkâde 1440</column>
+            <column name="hicri_dateshort">10.11.1440</column>
+            <column name="hicri_miladiuzun">13 Temmuz 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">307</column>
+            <column name="hicri_date">14.07.2019</column>
+            <column name="hicri_title">11 Zilkâde 1440</column>
+            <column name="hicri_dateshort">11.11.1440</column>
+            <column name="hicri_miladiuzun">14 Temmuz 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">308</column>
+            <column name="hicri_date">15.07.2019</column>
+            <column name="hicri_title">12 Zilkâde 1440</column>
+            <column name="hicri_dateshort">12.11.1440</column>
+            <column name="hicri_miladiuzun">15 Temmuz 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">309</column>
+            <column name="hicri_date">16.07.2019</column>
+            <column name="hicri_title">13 Zilkâde 1440</column>
+            <column name="hicri_dateshort">13.11.1440</column>
+            <column name="hicri_miladiuzun">16 Temmuz 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">310</column>
+            <column name="hicri_date">17.07.2019</column>
+            <column name="hicri_title">14 Zilkâde 1440</column>
+            <column name="hicri_dateshort">14.11.1440</column>
+            <column name="hicri_miladiuzun">17 Temmuz 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">311</column>
+            <column name="hicri_date">18.07.2019</column>
+            <column name="hicri_title">15 Zilkâde 1440</column>
+            <column name="hicri_dateshort">15.11.1440</column>
+            <column name="hicri_miladiuzun">18 Temmuz 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">312</column>
+            <column name="hicri_date">19.07.2019</column>
+            <column name="hicri_title">16 Zilkâde 1440</column>
+            <column name="hicri_dateshort">16.11.1440</column>
+            <column name="hicri_miladiuzun">19 Temmuz 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">313</column>
+            <column name="hicri_date">20.07.2019</column>
+            <column name="hicri_title">17 Zilkâde 1440</column>
+            <column name="hicri_dateshort">17.11.1440</column>
+            <column name="hicri_miladiuzun">20 Temmuz 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">314</column>
+            <column name="hicri_date">21.07.2019</column>
+            <column name="hicri_title">18 Zilkâde 1440</column>
+            <column name="hicri_dateshort">18.11.1440</column>
+            <column name="hicri_miladiuzun">21 Temmuz 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">315</column>
+            <column name="hicri_date">22.07.2019</column>
+            <column name="hicri_title">19 Zilkâde 1440</column>
+            <column name="hicri_dateshort">19.11.1440</column>
+            <column name="hicri_miladiuzun">22 Temmuz 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">316</column>
+            <column name="hicri_date">23.07.2019</column>
+            <column name="hicri_title">20 Zilkâde 1440</column>
+            <column name="hicri_dateshort">20.11.1440</column>
+            <column name="hicri_miladiuzun">23 Temmuz 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">317</column>
+            <column name="hicri_date">24.07.2019</column>
+            <column name="hicri_title">21 Zilkâde 1440</column>
+            <column name="hicri_dateshort">21.11.1440</column>
+            <column name="hicri_miladiuzun">24 Temmuz 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">318</column>
+            <column name="hicri_date">25.07.2019</column>
+            <column name="hicri_title">22 Zilkâde 1440</column>
+            <column name="hicri_dateshort">22.11.1440</column>
+            <column name="hicri_miladiuzun">25 Temmuz 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">319</column>
+            <column name="hicri_date">26.07.2019</column>
+            <column name="hicri_title">23 Zilkâde 1440</column>
+            <column name="hicri_dateshort">23.11.1440</column>
+            <column name="hicri_miladiuzun">26 Temmuz 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">320</column>
+            <column name="hicri_date">27.07.2019</column>
+            <column name="hicri_title">24 Zilkâde 1440</column>
+            <column name="hicri_dateshort">24.11.1440</column>
+            <column name="hicri_miladiuzun">27 Temmuz 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">321</column>
+            <column name="hicri_date">28.07.2019</column>
+            <column name="hicri_title">25 Zilkâde 1440</column>
+            <column name="hicri_dateshort">25.11.1440</column>
+            <column name="hicri_miladiuzun">28 Temmuz 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">322</column>
+            <column name="hicri_date">29.07.2019</column>
+            <column name="hicri_title">26 Zilkâde 1440</column>
+            <column name="hicri_dateshort">26.11.1440</column>
+            <column name="hicri_miladiuzun">29 Temmuz 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">323</column>
+            <column name="hicri_date">30.07.2019</column>
+            <column name="hicri_title">27 Zilkâde 1440</column>
+            <column name="hicri_dateshort">27.11.1440</column>
+            <column name="hicri_miladiuzun">30 Temmuz 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">324</column>
+            <column name="hicri_date">31.07.2019</column>
+            <column name="hicri_title">28 Zilkâde 1440</column>
+            <column name="hicri_dateshort">28.11.1440</column>
+            <column name="hicri_miladiuzun">31 Temmuz 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">325</column>
+            <column name="hicri_date">01.08.2019</column>
+            <column name="hicri_title">29 Zilkâde 1440</column>
+            <column name="hicri_dateshort">29.11.1440</column>
+            <column name="hicri_miladiuzun">01 Ağustos 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">326</column>
+            <column name="hicri_date">02.08.2019</column>
+            <column name="hicri_title">1 Zilhicce 1440</column>
+            <column name="hicri_dateshort">01.12.1440</column>
+            <column name="hicri_miladiuzun">02 Ağustos 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">327</column>
+            <column name="hicri_date">03.08.2019</column>
+            <column name="hicri_title">2 Zilhicce 1440</column>
+            <column name="hicri_dateshort">02.12.1440</column>
+            <column name="hicri_miladiuzun">03 Ağustos 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">328</column>
+            <column name="hicri_date">04.08.2019</column>
+            <column name="hicri_title">3 Zilhicce 1440</column>
+            <column name="hicri_dateshort">03.12.1440</column>
+            <column name="hicri_miladiuzun">04 Ağustos 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">329</column>
+            <column name="hicri_date">05.08.2019</column>
+            <column name="hicri_title">4 Zilhicce 1440</column>
+            <column name="hicri_dateshort">04.12.1440</column>
+            <column name="hicri_miladiuzun">05 Ağustos 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">330</column>
+            <column name="hicri_date">06.08.2019</column>
+            <column name="hicri_title">5 Zilhicce 1440</column>
+            <column name="hicri_dateshort">05.12.1440</column>
+            <column name="hicri_miladiuzun">06 Ağustos 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">331</column>
+            <column name="hicri_date">07.08.2019</column>
+            <column name="hicri_title">6 Zilhicce 1440</column>
+            <column name="hicri_dateshort">06.12.1440</column>
+            <column name="hicri_miladiuzun">07 Ağustos 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">332</column>
+            <column name="hicri_date">08.08.2019</column>
+            <column name="hicri_title">7 Zilhicce 1440</column>
+            <column name="hicri_dateshort">07.12.1440</column>
+            <column name="hicri_miladiuzun">08 Ağustos 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">333</column>
+            <column name="hicri_date">09.08.2019</column>
+            <column name="hicri_title">8 Zilhicce 1440</column>
+            <column name="hicri_dateshort">08.12.1440</column>
+            <column name="hicri_miladiuzun">09 Ağustos 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">334</column>
+            <column name="hicri_date">10.08.2019</column>
+            <column name="hicri_title">9 Zilhicce 1440</column>
+            <column name="hicri_dateshort">09.12.1440</column>
+            <column name="hicri_miladiuzun">10 Ağustos 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">335</column>
+            <column name="hicri_date">11.08.2019</column>
+            <column name="hicri_title">10 Zilhicce 1440</column>
+            <column name="hicri_dateshort">10.12.1440</column>
+            <column name="hicri_miladiuzun">11 Ağustos 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">336</column>
+            <column name="hicri_date">12.08.2019</column>
+            <column name="hicri_title">11 Zilhicce 1440</column>
+            <column name="hicri_dateshort">11.12.1440</column>
+            <column name="hicri_miladiuzun">12 Ağustos 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">337</column>
+            <column name="hicri_date">13.08.2019</column>
+            <column name="hicri_title">12 Zilhicce 1440</column>
+            <column name="hicri_dateshort">12.12.1440</column>
+            <column name="hicri_miladiuzun">13 Ağustos 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">338</column>
+            <column name="hicri_date">14.08.2019</column>
+            <column name="hicri_title">13 Zilhicce 1440</column>
+            <column name="hicri_dateshort">13.12.1440</column>
+            <column name="hicri_miladiuzun">14 Ağustos 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">339</column>
+            <column name="hicri_date">15.08.2019</column>
+            <column name="hicri_title">14 Zilhicce 1440</column>
+            <column name="hicri_dateshort">14.12.1440</column>
+            <column name="hicri_miladiuzun">15 Ağustos 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">340</column>
+            <column name="hicri_date">16.08.2019</column>
+            <column name="hicri_title">15 Zilhicce 1440</column>
+            <column name="hicri_dateshort">15.12.1440</column>
+            <column name="hicri_miladiuzun">16 Ağustos 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">341</column>
+            <column name="hicri_date">17.08.2019</column>
+            <column name="hicri_title">16 Zilhicce 1440</column>
+            <column name="hicri_dateshort">16.12.1440</column>
+            <column name="hicri_miladiuzun">17 Ağustos 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">342</column>
+            <column name="hicri_date">18.08.2019</column>
+            <column name="hicri_title">17 Zilhicce 1440</column>
+            <column name="hicri_dateshort">17.12.1440</column>
+            <column name="hicri_miladiuzun">18 Ağustos 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">343</column>
+            <column name="hicri_date">19.08.2019</column>
+            <column name="hicri_title">18 Zilhicce 1440</column>
+            <column name="hicri_dateshort">18.12.1440</column>
+            <column name="hicri_miladiuzun">19 Ağustos 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">344</column>
+            <column name="hicri_date">20.08.2019</column>
+            <column name="hicri_title">19 Zilhicce 1440</column>
+            <column name="hicri_dateshort">19.12.1440</column>
+            <column name="hicri_miladiuzun">20 Ağustos 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">345</column>
+            <column name="hicri_date">21.08.2019</column>
+            <column name="hicri_title">20 Zilhicce 1440</column>
+            <column name="hicri_dateshort">20.12.1440</column>
+            <column name="hicri_miladiuzun">21 Ağustos 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">346</column>
+            <column name="hicri_date">22.08.2019</column>
+            <column name="hicri_title">21 Zilhicce 1440</column>
+            <column name="hicri_dateshort">21.12.1440</column>
+            <column name="hicri_miladiuzun">22 Ağustos 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">347</column>
+            <column name="hicri_date">23.08.2019</column>
+            <column name="hicri_title">22 Zilhicce 1440</column>
+            <column name="hicri_dateshort">22.12.1440</column>
+            <column name="hicri_miladiuzun">23 Ağustos 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">348</column>
+            <column name="hicri_date">24.08.2019</column>
+            <column name="hicri_title">23 Zilhicce 1440</column>
+            <column name="hicri_dateshort">23.12.1440</column>
+            <column name="hicri_miladiuzun">24 Ağustos 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">349</column>
+            <column name="hicri_date">25.08.2019</column>
+            <column name="hicri_title">24 Zilhicce 1440</column>
+            <column name="hicri_dateshort">24.12.1440</column>
+            <column name="hicri_miladiuzun">25 Ağustos 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">350</column>
+            <column name="hicri_date">26.08.2019</column>
+            <column name="hicri_title">25 Zilhicce 1440</column>
+            <column name="hicri_dateshort">25.12.1440</column>
+            <column name="hicri_miladiuzun">26 Ağustos 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">351</column>
+            <column name="hicri_date">27.08.2019</column>
+            <column name="hicri_title">26 Zilhicce 1440</column>
+            <column name="hicri_dateshort">26.12.1440</column>
+            <column name="hicri_miladiuzun">27 Ağustos 2019 Salı</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">352</column>
+            <column name="hicri_date">28.08.2019</column>
+            <column name="hicri_title">27 Zilhicce 1440</column>
+            <column name="hicri_dateshort">27.12.1440</column>
+            <column name="hicri_miladiuzun">28 Ağustos 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">353</column>
+            <column name="hicri_date">29.08.2019</column>
+            <column name="hicri_title">28 Zilhicce 1440</column>
+            <column name="hicri_dateshort">28.12.1440</column>
+            <column name="hicri_miladiuzun">29 Ağustos 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">354</column>
+            <column name="hicri_date">30.08.2019</column>
+            <column name="hicri_title">29 Zilhicce 1440</column>
+            <column name="hicri_dateshort">29.12.1440</column>
+            <column name="hicri_miladiuzun">30 Ağustos 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">355</column>
+            <column name="hicri_date">01.01.2019</column>
+            <column name="hicri_title">25 Rebîulâhir 1440</column>
+            <column name="hicri_dateshort">25.04.1440</column>
+            <column name="hicri_miladiuzun">01 Ocak 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">356</column>
+            <column name="hicri_date">02.01.2019</column>
+            <column name="hicri_title">26 Rebîulâhir 1440</column>
+            <column name="hicri_dateshort">26.04.1440</column>
+            <column name="hicri_miladiuzun">02 Ocak 2019 Çarşamba</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">357</column>
+            <column name="hicri_date">03.01.2019</column>
+            <column name="hicri_title">27 Rebîulâhir 1440</column>
+            <column name="hicri_dateshort">27.04.1440</column>
+            <column name="hicri_miladiuzun">03 Ocak 2019 Perşembe</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">358</column>
+            <column name="hicri_date">04.01.2019</column>
+            <column name="hicri_title">28 Rebîulâhir 1440</column>
+            <column name="hicri_dateshort">28.04.1440</column>
+            <column name="hicri_miladiuzun">04 Ocak 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">359</column>
+            <column name="hicri_date">05.01.2019</column>
+            <column name="hicri_title">29 Rebîulâhir 1440</column>
+            <column name="hicri_dateshort">29.04.1440</column>
+            <column name="hicri_miladiuzun">05 Ocak 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">360</column>
+            <column name="hicri_date">06.01.2019</column>
+            <column name="hicri_title">30 Rebîulâhir 1440</column>
+            <column name="hicri_dateshort">30.04.1440</column>
+            <column name="hicri_miladiuzun">06 Ocak 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">361</column>
+            <column name="hicri_date">27.12.2019</column>
+            <column name="hicri_title">1 Cemâziyelevvel 1441</column>
+            <column name="hicri_dateshort">01.05.1441</column>
+            <column name="hicri_miladiuzun">27 Aralık 2019 Cuma</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">362</column>
+            <column name="hicri_date">28.12.2019</column>
+            <column name="hicri_title">2 Cemâziyelevvel 1441</column>
+            <column name="hicri_dateshort">02.05.1441</column>
+            <column name="hicri_miladiuzun">28 Aralık 2019 Cumartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">363</column>
+            <column name="hicri_date">29.12.2019</column>
+            <column name="hicri_title">3 Cemâziyelevvel 1441</column>
+            <column name="hicri_dateshort">03.05.1441</column>
+            <column name="hicri_miladiuzun">29 Aralık 2019 Pazar</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">364</column>
+            <column name="hicri_date">30.12.2019</column>
+            <column name="hicri_title">4 Cemâziyelevvel 1441</column>
+            <column name="hicri_dateshort">04.05.1441</column>
+            <column name="hicri_miladiuzun">30 Aralık 2019 Pazartesi</column>
+        </table>
+        <table name="hicri">
+            <column name="hicri_id">365</column>
+            <column name="hicri_date">31.12.2019</column>
+            <column name="hicri_title">5 Cemâziyelevvel 1441</column>
+            <column name="hicri_dateshort">05.05.1441</column>
+            <column name="hicri_miladiuzun">31 Aralık 2019 Salı</column>
+        </table>
+    </database>
+</pma_xml_export>
