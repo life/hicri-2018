@@ -1,6 +1,9 @@
 /**
  Export to JSON plugin for PHPMyAdmin
  @version 0.1
+-- Abdullah Çetinkaya
+-- mail@abdullahcetinkaya.com.tr
+-- https://github.com/life
  */
 
 // Database 'namaz-vakitleri'
